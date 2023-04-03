@@ -1,0 +1,50 @@
+body{
+    background-image: url(./media/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+/* sidebar */
+.sidebar-bg{
+    backdrop-filter: blur(8px);
+}
+/* sidebar */
+
+
+/* navbar */
+.form-input{
+    position: relative;
+}
+.form-input i{
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+}
+.searchbar-custom{
+    background: rgba(0, 0, 0, 0.3);
+}
+.searchbar-custom:focus{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.bg-notify{
+    background: rgba(0, 0, 0, 0.3);
+}
+/* navbar */
+
+
+/* card-section */
+.card-img-custom{
+    height: 500px;
+    background: url(./media/movie1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-card{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* card-section */
